@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000000;
+}
+
+.topo{
+    background-color: #000000;
+    width: 100%;
+    height: 60px;
+}
+
+
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: rgb(255, 0, 0);
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+.menu{
+    width: 1000px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul{
+    width: 600px;
+    height: 60px;
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 18px;
+    padding: 17px 30px;
+}
+
+.menu a:hover{
+    background-color: cornflowerblue;
+}
+
+.content{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+
+.mouse{
+    width: 400px;
+    height: 100px;
+    margin-top: 200px;    
+}
+
+.artigo-sobre img{
+    width: 400px;
+    height: 450px;
+}
+
+.artigo-sobre p{
+    color: white;
+}
+
+.sobre h2{
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.artigo-sobre{
+    display: flex;
+    justify-content: space-between;
+}
+
+.artigo-sobre img{
+    width: 500px;
+}
+
+.artigo-text-sobre{
+    width: 500px;
+}
+
+.artigo-text-sobre h3:nth-child(1){
+    font-family: Arial;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.artigo-text-sobre h3:nth-child(2){
+    font-family: Arial;
+    font-size: 43px;
+    color: rgb(255, 0, 0);
+}
+
+.artigo-text-sobre p{
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.info{
+    width: 100%;
+    height: 200px;
+    text-transform: uppercase;
+}
+
+.info-card h4{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+.info-card p{
+    width: 250px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    border: solid 1px #ff0000;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.info-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.endereco{
+    width: 100%;
+    height: 500px;
+}
+
+.endereco h2{
+    font-size: 30px;
+    font-family: Arial;
+    color: #ffffff;
+}
+
+.end-text{
+    width: 500px;
+    height: 310px;
+    background-color: #010010;
+    border: solid 2px #868686;
+}
+
+.end-text p{
+    font-family: Arial;
+    font-size: 24px;
+    color: #ff0000;
+}
+
+.img1{
+    position: relative;
+    top: -40px;
+}
+
+.end-text img{
+    margin-left: 50px;
+    width: 400px;
+    height: 220px;
+}
+
+.aliamento-centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape{
+    width: 100%;
+    height: 80px;
+    background-color: #f9003d;
+    color: white;
+}
+
+.image-carrossel{
+    object-fit: cover;
+    height: 200px;
+}
