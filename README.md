@@ -1,6 +1,6 @@
 # Primeiro site feito no Senai 2021
 
-Uns dos primeiros sites feitos no curso Web Designer do Senai. esse site foi projetado para aprender os comandos inicias do **html** e **css**.
+Uns dos primeiros sites feitos no curso Web Designer do Senai. esse site foi desenvolvido para aprender os comandos inicias do **html** e **css**.
 
 [LINK DO SITE](WWW)
 
