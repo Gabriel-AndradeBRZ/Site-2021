@@ -175,13 +175,13 @@ body{
 
 .img1{
     position: relative;
-    top: -40px;
+    top: -20px;
 }
 
 .end-text img{
-    margin-left: 50px;
-    width: 400px;
-    height: 220px;
+
+    width: 498px;
+    height: 200px;
 }
 
 .aliamento-centro{
@@ -197,7 +197,12 @@ body{
     color: white;
 }
 
+.rodape p{
+    margin-top: 20px;
+}
+
 .image-carrossel{
     object-fit: cover;
-    height: 200px;
+    height: 400px;
+
 }
